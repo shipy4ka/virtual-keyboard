@@ -1,0 +1,54 @@
+@import "../abstract/constants";
+
+.panel__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.panel__key {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    color: $color-text;
+    background-color: $color-key;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 17px 0;
+    cursor: pointer;
+    transition: background-color 0.6s;
+    z-index: 1;
+    &:hover{
+        background-color: $color-key-hover;
+    }
+    &:active{
+        background-color: $color-key-active;
+        top: 3px;
+        left: 1px;
+    }
+    &_control{
+        color: #ffffff;
+        background-color: $color-key-control;
+        &:hover{
+            background-color: $color-key-control-hover;
+        }
+        &:active{
+            background-color: $color-key-control-active;
+        }
+    }
+}
+
+.capslock_active {
+    background-color: $color-key-capslock-active;
+}
+
+.big {
+    width: 490px;
+}
+
+.middle {
+    width: 130px;
+}
+
