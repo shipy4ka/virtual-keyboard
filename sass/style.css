@@ -49,6 +49,14 @@
 .capslock_active {
   background-color: #810b5b;
 }
+.capslock_active:hover {
+  background-color: #810b5b;
+  border: solid 0.5px #ffffff;
+}
+
+.control_active {
+  background-color: #3a0a3b;
+}
 
 .big {
   width: 490px;
@@ -56,6 +64,12 @@
 
 .middle {
   width: 130px;
+}
+
+.active {
+  background-color: #7a3bee;
+  top: 3px;
+  left: 1px;
 }
 
 .keyboard__wrapper {

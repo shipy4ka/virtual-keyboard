@@ -35,7 +35,7 @@ const i18Obj = {
       period: 'ю',
       slash: '.',
       system: 'Сделано в операционной системе Windows',
-      changing: 'Переключения языка по Ctrl + Shift',
+      changing: 'Переключения языка левыми Alt + Shift',
     },
     en: {
         backquote: '`',
@@ -73,7 +73,7 @@ const i18Obj = {
         period: '.',
         slash: '/',
         system: 'Made in Windows system',
-        changing: 'Changing language by Ctrl + Shift',
+        changing: 'Changing language by left Alt + Shift',
       },
   };
   export default i18Obj;
